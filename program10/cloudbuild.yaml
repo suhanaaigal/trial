@@ -1,0 +1,3 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['-m', 'rsync', '-r', 'web-pages/', 'gs://program10-bucket1']
